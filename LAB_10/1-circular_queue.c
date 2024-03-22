@@ -18,7 +18,7 @@ void enqueue(int x)
 
 	if (F == R)
 	{
-		//			printf("Overflow.!");
+		//	printf("Overflow.!");
 		if (R == 0)
 			R = N - 1;
 		else
