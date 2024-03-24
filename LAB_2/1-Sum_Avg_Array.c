@@ -18,5 +18,6 @@ int main()
 	avg = sum / no;
 	printf("Sum: %d\n", sum);
 	printf("Average: %.2f", avg);
+	printf("\n----------------------\n");
 	return 0;
 }
