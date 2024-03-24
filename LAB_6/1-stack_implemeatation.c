@@ -41,7 +41,7 @@ int peep(int i)
 }
 void change(int i, int x)
 {
-	if (top - 1 + 1 <= -1)
+	if (top - i + 1 <= -1)
 	{
 		printf("ith element is not available\n");
 	}
