@@ -1,4 +1,4 @@
-// infix to prefix conversion
+// 2 - infix to prefix conversion
 
 #include <stdio.h>
 #include <string.h>
