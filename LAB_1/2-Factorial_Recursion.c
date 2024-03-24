@@ -1,4 +1,4 @@
-// 2-Write a program to ..nd factorial of a number using recursion. [A]
+// 2-Write a program to find factorial of a number using recursion. [A]
 
 #include <stdio.h>
 int factorial(int n)
