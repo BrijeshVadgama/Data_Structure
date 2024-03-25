@@ -1,9 +1,9 @@
 // 1 - implementation of linear search
 
 #include <stdio.h>
-int linear(int a[], int key)
+int linear(int a[], int n, int key)
 {
-	int i, n;
+	int i;
 	for (i = 0; i < n; i++)
 	{
 		if (a[i] == key)
@@ -26,7 +26,7 @@ int main()
 	}
 	printf("Enter Key: ");
 	scanf("%d", &key);
-	ans = linear(arr, key);
+	ans = linear(arr, n, key);
 	if (ans == -1)
 	{
 		printf("Element Not Fount.!");
